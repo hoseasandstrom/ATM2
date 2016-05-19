@@ -10,7 +10,7 @@ public class Customer {
 
     public void chooseName() {
         System.out.println("What is your name?");
-        String name = Main.scanner.nextLine();
+        name = Main.scanner.nextLine();
         System.out.println("Welcome " + name);
     }
 
