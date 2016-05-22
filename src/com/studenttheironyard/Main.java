@@ -7,14 +7,20 @@ import java.util.Scanner;
 public class Main {
 
     static Scanner scanner = new Scanner(System.in);
-    static Person person = new Person();
+
 
     public static void main(String[] args) throws Exception {
-        System.out.println("Welcome!");
+        boolean run = true;
+        while (run) {
+            System.out.println("Welcome!");
 
-        person.chooseName();
-        person.chooseOption();
 
+            Customer customer = new Customer();
+            customer.chooseName();
+            customer.chooseOption();
+
+
+        }
     }
 }
 
