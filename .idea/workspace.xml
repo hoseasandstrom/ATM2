@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68adabf3-a48e-487b-ae42-7e24470bf032" name="Default" comment="ATM with DDS">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/studenttheironyard/Customer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/studenttheironyard/account.java" afterPath="" />
+    <list default="true" id="68adabf3-a48e-487b-ae42-7e24470bf032" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/studenttheironyard/Main.java" afterPath="$PROJECT_DIR$/src/com/studenttheironyard/Main.java" />
     </list>
     <ignored path="ATM2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -421,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1463760643394</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ATM with DDS">
+      <created>1463961302091</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1463961302091</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -459,7 +463,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ATM2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ATM2" />
+    <MESSAGE value="ATM with DDS" />
+    <option name="LAST_COMMIT_MESSAGE" value="ATM with DDS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
