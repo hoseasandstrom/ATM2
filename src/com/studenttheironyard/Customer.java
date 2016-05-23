@@ -10,25 +10,28 @@ import static com.studenttheironyard.Main.scanner;
 class Customer {
     String name;
     String option;
-    static HashMap<String, Double> account = new HashMap<>();
 
-        public void chooseName () {
+
+    public boolean chooseName () {
         System.out.println("What is your name?");
         name = Main.scanner.nextLine();
-        while (account.containsKey("Alice")) ;
+        if (Main.account.containsKey(name))
         {
             System.out.println("Welcome " + name);
         }
-
-        if (!account.containsKey("Alice")) ;
+        else
         {
             System.out.println("Would you like to create an account [y/n]?");
+            String answer = Main.scanner.nextLine();
+            if (answer.equalsIgnoreCase("y")) {
+                Main.account.put(name, 100.50);
+                System.out.println(name + " your account has been created");
+            }
+            else {
+                return false;
+            }
         }
-        String answer = Main.scanner.nextLine();
-        if (answer.equalsIgnoreCase("y")) {
-            account.put("names", 100.50);
-            System.out.println(name + " your account has been created");
-        }
+        return true;
     }
 
 
@@ -50,7 +53,7 @@ class Customer {
                 System.out.println("Insufficient funds");
             }
         } else if (option.equalsIgnoreCase("4")) {
-            account.remove("name", 100.00);
+            Main.account.remove(name);
             System.out.println("Your account has been deleted. Thank you and have a wonderful day!");
         }
     }
